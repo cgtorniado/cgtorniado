@@ -22,7 +22,8 @@ body{
 /* Create a sticky/fixed navbar */
 #navbar {
     overflow: hidden;
-    background-color:#36a1d4;
+    background: rgb(54,161,212);
+    background: linear-gradient(113deg, rgba(54,161,212,1) 16%, rgba(90,204,191,1) 100%);
     padding: 40px 10px;
     /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s;
@@ -110,3 +111,20 @@ h1{
 #travelguide{
     background-color:#36a1d4;
 }
+
+
+.rounded-5 {
+    border-radius: 2rem;
+ }
+
+
+ .blogdivider{
+    background: rgb(54,161,212);
+    background: linear-gradient(113deg, rgba(54,161,212,1) 16%, rgba(90,204,191,1) 100%);
+ }
+
+ .btn-primary{
+    background: rgb(54,161,212);
+    background: linear-gradient(113deg, rgba(54,161,212,1) 16%, rgba(90,204,191,1) 100%);
+    border:0;
+ }
