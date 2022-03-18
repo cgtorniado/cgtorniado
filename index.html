@@ -8,7 +8,7 @@
     <title>Ceebu - Queen City Travel Guide</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="Images/LogoAssets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="Images/favicon_io/favicon.ico">
 
     <!-- Bootstrap5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -33,7 +33,7 @@
 
     <!-- NAV -->
     <div id="navbar" class="navbar navbar-expand-lg navbar-brand navbar-light">
-        <a href="#default" class="seaweed p-3" style="font-size:xx-large;">Ceebu</a>
+        <a href="#default" class="seaweed p-3" style="font-size:xx-large;" id="logo">Ceebu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-right"
             aria-controls="navbar-right" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,13 +50,14 @@
         </div>
     </div>
 
-      
+
     <!-- ABOUT -->
 
     <div class="p-5 aboutus container-fluid">
         <div class="container-fluid py-5">
             <h1 class="seaweed text-white">About Us</h1>
-            <p class="col-md-8 fs-4 text-white"> At <span class="seaweed" style="font-size: 25px;">Ceebu</span> , we understand what it's like to
+            <p class="col-md-8 fs-4 text-white"> At <span class="seaweed" style="font-size: 25px;">Ceebu</span> , we
+                understand what it's like to
                 be a local in Cebu. You may have lived at the Philippines for a long time, but you still don't know
                 everything about the city and its hidden gems. We've been there, and that's why we are here!
             </p>
@@ -68,18 +69,20 @@
 
 
     <!-- Blog Divider -->
-    <div class="row container-fluid p-5 text-white m-0 blogdivider">         
+    <div class="row container-fluid p-5 text-white m-0 blogdivider">
         <h1 class="seaweed  container-fluid  text-white text-center ">Queen City Travel Guide </h1>
-        <p class="lead text-white text-justify px-5"> We've taken all the stress out of planning your trip and left in all the fun—all for free. So put down that travel book, close those TripAdvisor tabs, and let us show you how it's done.</p>
+        <p class="lead text-white text-justify px-5"> We've taken all the stress out of planning your trip and left in
+            all the fun—all for free. So put down that travel book, close those TripAdvisor tabs, and let us show you
+            how it's done.</p>
     </div>
 
     <!-- Blog -->
-    <div class="container px-4 py-5 ">
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="container blog px-4 py-5 ">
+        <div class="row row-cols-1 row-cols-lg-3 h-100 align-items-stretch g-4 p-3">
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg"
                     style="background-image: url('Images/FrontPagePictures/pasalubong.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-2">
+                    <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-2">
                         <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">The Ultimate Pasalubong Guide</h2>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li> </li>
@@ -98,9 +101,9 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                <div class="card card-cover overflow-hidden h-100 text-white bg-dark rounded-5 shadow-lg"
                     style="background-image: url('Images/FrontPagePictures/taoist.jpeg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-2">
+                    <div class="d-flex flex-column p-5 pb-3 h-100 text-white text-shadow-2">
                         <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tour the city like no other</h2>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center me-3">
@@ -118,9 +121,9 @@
             </div>
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                <div class="card card-cover overflow-hidden h-100 text-white bg-dark rounded-5 shadow-lg"
                     style="background-image: url('Images/FrontPagePictures/bantayan.jpeg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-2">
+                    <div class="d-flex flex-column p-5 pb-3 h-100 text-shadow-2">
                         <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ain't no ocean wide enough. The top
                             Cebu Beaches</h2>
                         <ul class="d-flex list-unstyled mt-auto">
@@ -139,21 +142,32 @@
             </div>
         </div>
 
-        
+
     </div>
 
 
     <!--  WAVE DIVIDER -->
     <div class="wavediv1">
-        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(54, 161, 212, 1)" offset="0%"></stop><stop stop-color="rgba(119, 191, 226, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,39L21.8,43.3C43.6,48,87,56,131,58.5C174.5,61,218,56,262,58.5C305.5,61,349,69,393,60.7C436.4,52,480,26,524,17.3C567.3,9,611,17,655,21.7C698.2,26,742,26,785,23.8C829.1,22,873,17,916,17.3C960,17,1004,22,1047,32.5C1090.9,43,1135,61,1178,56.3C1221.8,52,1265,26,1309,15.2C1352.7,4,1396,9,1440,19.5C1483.6,30,1527,48,1571,65C1614.5,82,1658,100,1702,108.3C1745.5,117,1789,117,1833,114.8C1876.4,113,1920,108,1964,95.3C2007.3,82,2051,61,2095,60.7C2138.2,61,2182,82,2225,75.8C2269.1,69,2313,35,2356,19.5C2400,4,2444,9,2487,8.7C2530.9,9,2575,4,2618,2.2C2661.8,0,2705,0,2749,2.2C2792.7,4,2836,9,2880,23.8C2923.6,39,2967,65,3011,71.5C3054.5,78,3098,65,3120,58.5L3141.8,52L3141.8,130L3120,130C3098.2,130,3055,130,3011,130C2967.3,130,2924,130,2880,130C2836.4,130,2793,130,2749,130C2705.5,130,2662,130,2618,130C2574.5,130,2531,130,2487,130C2443.6,130,2400,130,2356,130C2312.7,130,2269,130,2225,130C2181.8,130,2138,130,2095,130C2050.9,130,2007,130,1964,130C1920,130,1876,130,1833,130C1789.1,130,1745,130,1702,130C1658.2,130,1615,130,1571,130C1527.3,130,1484,130,1440,130C1396.4,130,1353,130,1309,130C1265.5,130,1222,130,1178,130C1134.5,130,1091,130,1047,130C1003.6,130,960,130,916,130C872.7,130,829,130,785,130C741.8,130,698,130,655,130C610.9,130,567,130,524,130C480,130,436,130,393,130C349.1,130,305,130,262,130C218.2,130,175,130,131,130C87.3,130,44,130,22,130L0,130Z"></path></svg>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(54, 161, 212, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(119, 191, 226, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,39L21.8,43.3C43.6,48,87,56,131,58.5C174.5,61,218,56,262,58.5C305.5,61,349,69,393,60.7C436.4,52,480,26,524,17.3C567.3,9,611,17,655,21.7C698.2,26,742,26,785,23.8C829.1,22,873,17,916,17.3C960,17,1004,22,1047,32.5C1090.9,43,1135,61,1178,56.3C1221.8,52,1265,26,1309,15.2C1352.7,4,1396,9,1440,19.5C1483.6,30,1527,48,1571,65C1614.5,82,1658,100,1702,108.3C1745.5,117,1789,117,1833,114.8C1876.4,113,1920,108,1964,95.3C2007.3,82,2051,61,2095,60.7C2138.2,61,2182,82,2225,75.8C2269.1,69,2313,35,2356,19.5C2400,4,2444,9,2487,8.7C2530.9,9,2575,4,2618,2.2C2661.8,0,2705,0,2749,2.2C2792.7,4,2836,9,2880,23.8C2923.6,39,2967,65,3011,71.5C3054.5,78,3098,65,3120,58.5L3141.8,52L3141.8,130L3120,130C3098.2,130,3055,130,3011,130C2967.3,130,2924,130,2880,130C2836.4,130,2793,130,2749,130C2705.5,130,2662,130,2618,130C2574.5,130,2531,130,2487,130C2443.6,130,2400,130,2356,130C2312.7,130,2269,130,2225,130C2181.8,130,2138,130,2095,130C2050.9,130,2007,130,1964,130C1920,130,1876,130,1833,130C1789.1,130,1745,130,1702,130C1658.2,130,1615,130,1571,130C1527.3,130,1484,130,1440,130C1396.4,130,1353,130,1309,130C1265.5,130,1222,130,1178,130C1134.5,130,1091,130,1047,130C1003.6,130,960,130,916,130C872.7,130,829,130,785,130C741.8,130,698,130,655,130C610.9,130,567,130,524,130C480,130,436,130,393,130C349.1,130,305,130,262,130C218.2,130,175,130,131,130C87.3,130,44,130,22,130L0,130Z">
+            </path>
+        </svg>
 
     </div>
 
     <!-- Media Booking -->
     <div class="container-fluid px-4 py-5" id="travelguide">
-        <div class="row py-5 row-cols-2 row-cols-lg-4">
-            <div class="col mx-auto d-block">
-                <img src="Images/FrontPagePictures/vlog.png" width="70%">
+        <div class="row p-5 row-cols-1 row-cols-lg-4 align-items-center">
+            <div class="col">
+                <img src="Images/FrontPagePictures/vlog.png" class="mx-auto d-block px-3" width="70%">
             </div>
 
             <div class="col p-3  bg-light">
@@ -161,21 +175,22 @@
                 <p> There's no other way to see more of Cebu but to check out what other's say about it in their
                     vlogs. See what other's can say about the Queen City.</p>
                 <a href="#" class="btn btn-primary">
-                    See the latest videos 
+                    See the latest videos
                 </a>
             </div>
 
-            <div class="col bg-light p-3" >
+            <div class="col bg-light p-3">
                 <h1 class="seaweed">Book a flight</h1>
-                <p class="text-justify">Don't just plan your trip. Make it happen. Check out the latest flights along with the
+                <p class="text-justify">Don't just plan your trip. Make it happen. Check out the latest flights along
+                    with the
                     weather forecast and upcoming holidays.</p>
                 <a href="#" class="btn btn-primary">
                     Take me to Cebu
                 </a>
             </div>
 
-            <div class="col mx-auto d-block">
-                <img src="Images/FrontPagePictures/flight.png" width="75%">
+            <div class="col mx-auto d-block p-0 m-0">
+                <img src="Images/FrontPagePictures/flight.png" class="mx-auto d-block " width="75%">
             </div>
 
 
@@ -185,67 +200,70 @@
 
     <!-- itinerary WAVE DIVIDER -->
     <div class="wavediv">
-        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(54, 161, 212, 1)" offset="0%"></stop><stop stop-color="rgba(119, 191, 226, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,78L24,73.7C48,69,96,61,144,67.2C192,74,240,95,288,95.3C336,95,384,74,432,71.5C480,69,528,87,576,86.7C624,87,672,69,720,54.2C768,39,816,26,864,36.8C912,48,960,82,1008,86.7C1056,91,1104,65,1152,62.8C1200,61,1248,82,1296,78C1344,74,1392,43,1440,43.3C1488,43,1536,74,1584,86.7C1632,100,1680,95,1728,86.7C1776,78,1824,65,1872,65C1920,65,1968,78,2016,80.2C2064,82,2112,74,2160,67.2C2208,61,2256,56,2304,58.5C2352,61,2400,69,2448,75.8C2496,82,2544,87,2592,73.7C2640,61,2688,30,2736,28.2C2784,26,2832,52,2880,54.2C2928,56,2976,35,3024,30.3C3072,26,3120,39,3168,39C3216,39,3264,26,3312,19.5C3360,13,3408,13,3432,13L3456,13L3456,130L3432,130C3408,130,3360,130,3312,130C3264,130,3216,130,3168,130C3120,130,3072,130,3024,130C2976,130,2928,130,2880,130C2832,130,2784,130,2736,130C2688,130,2640,130,2592,130C2544,130,2496,130,2448,130C2400,130,2352,130,2304,130C2256,130,2208,130,2160,130C2112,130,2064,130,2016,130C1968,130,1920,130,1872,130C1824,130,1776,130,1728,130C1680,130,1632,130,1584,130C1536,130,1488,130,1440,130C1392,130,1344,130,1296,130C1248,130,1200,130,1152,130C1104,130,1056,130,1008,130C960,130,912,130,864,130C816,130,768,130,720,130C672,130,624,130,576,130C528,130,480,130,432,130C384,130,336,130,288,130C240,130,192,130,144,130C96,130,48,130,24,130L0,130Z"></path></svg>
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(54, 161, 212, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(119, 191, 226, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,78L24,73.7C48,69,96,61,144,67.2C192,74,240,95,288,95.3C336,95,384,74,432,71.5C480,69,528,87,576,86.7C624,87,672,69,720,54.2C768,39,816,26,864,36.8C912,48,960,82,1008,86.7C1056,91,1104,65,1152,62.8C1200,61,1248,82,1296,78C1344,74,1392,43,1440,43.3C1488,43,1536,74,1584,86.7C1632,100,1680,95,1728,86.7C1776,78,1824,65,1872,65C1920,65,1968,78,2016,80.2C2064,82,2112,74,2160,67.2C2208,61,2256,56,2304,58.5C2352,61,2400,69,2448,75.8C2496,82,2544,87,2592,73.7C2640,61,2688,30,2736,28.2C2784,26,2832,52,2880,54.2C2928,56,2976,35,3024,30.3C3072,26,3120,39,3168,39C3216,39,3264,26,3312,19.5C3360,13,3408,13,3432,13L3456,13L3456,130L3432,130C3408,130,3360,130,3312,130C3264,130,3216,130,3168,130C3120,130,3072,130,3024,130C2976,130,2928,130,2880,130C2832,130,2784,130,2736,130C2688,130,2640,130,2592,130C2544,130,2496,130,2448,130C2400,130,2352,130,2304,130C2256,130,2208,130,2160,130C2112,130,2064,130,2016,130C1968,130,1920,130,1872,130C1824,130,1776,130,1728,130C1680,130,1632,130,1584,130C1536,130,1488,130,1440,130C1392,130,1344,130,1296,130C1248,130,1200,130,1152,130C1104,130,1056,130,1008,130C960,130,912,130,864,130C816,130,768,130,720,130C672,130,624,130,576,130C528,130,480,130,432,130C384,130,336,130,288,130C240,130,192,130,144,130C96,130,48,130,24,130L0,130Z">
+            </path>
+        </svg>
 
     </div>
 
-        <!-- Itinerary -->
-       
-            <div class="container col-xxl-8 h-75  pb-1">
-                <div class="row flex-lg-row-reverse align-items-center g-5 ">
-                    <div class="col-lg-6">
-                    
-                        <img src="Images/FrontPagePictures/lapu.png" class="mx-lg-auto img-fluid mx-auto d-block"
-                            width="110%" height="110%" loading="lazy">
-                    </div>
-    
-                    <div class="col-lg-6">
-                        
-                        <p class="lead"> See all the cool places in Cebu that are waiting for
-                            you. We've got you covered 🏖💃</p>
+    <!-- Itinerary -->
 
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Day 1</th>
-                                        <th scope="col">Destination</th>
-                                        <th scope="col">Notes</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">9am</th>
-                                        <td>Temple of Leah</td>
-                                        <td>Pics only</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">11am</th>
-                                        <td>Mactan Shrine</td>
-                                        <td>Pics only</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3pm</th>
-                                        <td>Papa Kits</td>
-                                        <td>Pics, Activities</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                    
-                            <div class="d-grid gap-2 col-6 mx-auto">
-                    
-                                <a href="itinerary.html" class="btn btn-primary ">More ITINERARIES here</a>
-                    
-                    
-                            </div>
-                        
-    
-                    </div>
+    <div class="container col-xxl-8 h-75  pb-1">
+        <div class="row flex-lg-row-reverse align-items-center g-5 ">
+            <div class="col-lg-6">
+
+                <img src="Images/FrontPagePictures/lapu.png" class="mx-lg-auto img-fluid mx-auto d-block" 
+                    loading="lazy">
+            </div>
+
+            <div class="col-lg-6">
+
+                <p class="lead"> See all the cool places in Cebu that are waiting for
+                    you. We've got you covered 🏖💃</p>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Day 1</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">9am</th>
+                            <td>Temple of Leah</td>
+                            <td>Pics only</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11am</th>
+                            <td>Mactan Shrine</td>
+                            <td>Pics only</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3pm</th>
+                            <td>Papa Kits</td>
+                            <td>Pics, Activities</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <a href="itinerary.html" class="btn btn-primary ">More ITINERARIES here</a>
                 </div>
             </div>
-    
-       
-
+        </div>
     </div>
+    
 
     <!-- FOOTER  WAVE DIVIDER -->
     <div class="wavedivgif">
@@ -325,72 +343,66 @@
 
     <div class="container-fluid footer text-white">
         <footer class="row row-cols-12">
-          <div class="col-6 px-5">
-            <span class="seaweed" style="font-size: 30px;">Ceebu</span>
+            <div class="col-6 px-5">
+                <span class="seaweed" style="font-size: 30px;">Ceebu</span>
 
-            <p>Queen City Travel Guide</p>
+                <p>Queen City Travel Guide</p>
 
-            <p>Cleo Beverly Torniado  2022 | KodeGo Batch Frontier</p>
+                <p>Cleo Beverly Torniado 2022 | KodeGo Batch Frontier</p>
+
+                <ul class="nav flex-row">
+                    <li class="nav-item px-3"><a href="#"><i class="bi bi-github"
+                                style="font-size: 1.5rem; color:white"></i></a></li>
+                    <li class="nav-item px-3"><a href="#"><i class="bi bi-facebook"
+                                style="font-size: 1.5rem; color:white"></i></a></li>
+                    <li class="nav-item px-3"><a href="#"><i class="bi bi-instagram"
+                                style="font-size: 1.5rem; color:white"></i></a></li>
+                    <li class="nav-item px-3"><a href="#"><i class="bi bi-linkedin"
+                                style="font-size: 1.5rem; color:white"></i></a></li>
+                </ul>
+            </div>
 
 
-            <ul class="nav flex-row">
-                <li class="nav-item px-3"><a href="#"><i class="bi bi-github"  style="font-size: 1.5rem; color:white"></i></a></li>
 
-                <li class="nav-item px-3" ><a href="#"><i class="bi bi-facebook"  style="font-size: 1.5rem; color:white"></i></a></li>
-
-                <li class="nav-item px-3" ><a href="#"><i class="bi bi-instagram"  style="font-size: 1.5rem; color:white"></i></a></li>
-
-                <li class="nav-item px-3" ><a href="#"><i class="bi bi-linkedin"  style="font-size: 1.5rem; color:white"></i></a></li>
-               
-                
-              </ul>
-           
-               
-               
-          
-          </div>
-      
-       
-      
-          <div class="col-2">
-            <h4 class="pb-2">Home</h4>
-            <h4>About Us</h4>
-            <ul class="nav flex-column pb-2">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
-            </ul>
+            <div class="col-2">
+                <h4 class="pb-2">Home</h4>
+                <h4>About Us</h4>
+                <ul class="nav flex-column pb-2">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+                </ul>
 
             </div>
             <div class="col-2">
 
-            <h4>Guides</h4>
+                <h4>Guides</h4>
 
-            <ul class="nav flex-column pb-2">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pasalubong</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">City Tour</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Beaches</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pasalubong</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Others</a></li>
-            </ul>
-          </div>
-      
+                <ul class="nav flex-column pb-2">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pasalubong</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">City Tour</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Beaches</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pasalubong</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Others</a></li>
+                </ul>
+            </div>
 
-          <div class="col-2">
-            <h4 class="pb-2">Book Flights</h4>
 
-              <h4>Itineraries</h4>
+            <div class="col-2">
+                <h4 class="pb-2">Book Flights</h4>
 
-            <ul class="nav flex-column pb-2">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">1 Day 1 Night</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2 Days 1 Night
-              </a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">More Custom</a></li>
-            </ul>
-          </div>
-      
-          
-       
+                <h4>Itineraries</h4>
+
+                <ul class="nav flex-column pb-2">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">1 Day 1 Night</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2 Days 1 Night
+                        </a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">More Custom</a></li>
+                </ul>
+            </div>
+
+
+
         </footer>
-      </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -411,11 +423,9 @@
             if (document.body.scrollTop > 380 || document.documentElement.scrollTop > 380) {
                 document.getElementById("navbar").style.padding = "15px 10px";
                 document.getElementById("logo").style.fontSize = "25px";
-                document.getElementById("navbar").style.backgroundColor = "white";
             } else {
                 document.getElementById("navbar").style.padding = "40px 10px";
-                document.getElementById("logo").style.fontSize = "35px";
-                document.getElementById("navbar").style.backgroundColor = "#36A1D4";
+                document.getElementById("logo").style.fontSize = "45px";
             }
         }
 
