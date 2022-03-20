@@ -63,6 +63,7 @@ body{
 #navbar a:hover {
     background-color: white;
     color: #36a1d4;
+
 }
 
 /* Style the active/current link */
@@ -150,9 +151,15 @@ h1{
     border:0;
  }
 
-  a,a:hover{
+  a{
      color:inherit;
      text-decoration: inherit;
+   
+ }
+
+ footer a:hover{
+    color:inherit;
+     text-decoration: underline;
  }
 
  
